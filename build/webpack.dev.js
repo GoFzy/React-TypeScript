@@ -16,6 +16,7 @@ module.exports = {
     target: 'web',
     entry: {
         component: [resolve('src/component/index.tsx')],
+        event: [resolve('src/event/index.tsx')],
     },
     output: {
         path: resolve('public/dist/'),
